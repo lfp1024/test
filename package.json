@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test case",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfp1024/test.git"
+  },
+  "author": "lfp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfp1024/test/issues"
+  },
+  "homepage": "https://github.com/lfp1024/test#readme"
+}
