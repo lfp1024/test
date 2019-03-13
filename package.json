@@ -1,35 +1,41 @@
 {
-  "name": "test",
-  "version": "1.0.0",
-  "description": "test case",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "ts-node": "ts-node"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lfp1024/test.git"
-  },
-  "author": "lfp",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lfp1024/test/issues"
-  },
-  "homepage": "https://github.com/lfp1024/test#readme",
-  "devDependencies": {
-    "@types/chai": "^4.1.2",
-    "@types/mocha": "5.2.0",
-    "@types/node": "8",
-    "crypto": "^1.0.1",
-    "ts-node": "^5.0.1",
-    "tslint": "^5.11.0",
-    "typescript": "^3.0.1",
-    "typescript-formatter": "^7.2.2"
-  },
-  "dependencies": {
-    "@types/mongodb": "^3.1.12",
-    "lodash": "^4.17.11",
-    "mongodb": "^3.1.8"
-  }
+    "name": "test",
+    "version": "1.0.0",
+    "description": "test case",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "ts-node": "ts-node"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lfp1024/test.git"
+    },
+    "author": "lfp",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lfp1024/test/issues"
+    },
+    "homepage": "https://github.com/lfp1024/test#readme",
+    "devDependencies": {
+        "@types/chai": "^4.1.2",
+        "@types/mocha": "5.2.0",
+        "@types/node": "8",
+        "crypto": "^1.0.1",
+        "ts-node": "^5.0.1",
+        "tslint": "^5.11.0",
+        "typescript": "^3.0.1",
+        "typescript-formatter": "^7.2.2"
+    },
+    "dependencies": {
+        "@types/mongodb": "^3.1.12",
+        "axios": "^0.18.0",
+        "koa": "^2.7.0",
+        "lodash": "^4.17.11",
+        "mongodb": "^3.1.8",
+        "@types/koa": "^2.0.48",
+        "@types/koa-router": "^7.0.39",
+        "koa-body": "^4.0.4",
+        "koa-router": "^7.4.0"
+    }
 }
