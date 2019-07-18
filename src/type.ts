@@ -30,3 +30,19 @@
 //     name: "lfp",
 //     age: 26
 // }
+
+class as{
+    age=12
+    
+    getName(){
+    
+    }
+
+    set(){
+
+    }
+}
+class bb extends as{
+    
+}
+console.log("typeof = ",typeof as)
